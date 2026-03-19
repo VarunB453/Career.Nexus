@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Remote & Tech Careers — Career.Nexus</title>
+<link rel="stylesheet" href="./style/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="logo">Career<span>.</span>Nexus</div>
+  <div class="header-right">
+    <div class="live-count"><strong id="total-count">400+</strong> live links</div>
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="search" placeholder="Search companies..." oninput="filterCards()">
+    </div>
+  </div>
+</header>
+
+<div class="hero">
+  <p class="hero-eyebrow">// verified live — march 2026</p>
+  <h1>Remote & Tech<br><span class="hl">Career Bookmarks</span></h1>
+  <p class="hero-sub">400+ career pages — Indian IT services, MNCs, startups, remote boards & global tech.</p>
+</div>
+
+<div class="controls">
+  <button class="filter-btn active" data-filter="all" onclick="setFilter('all',this)">All</button>
+  <button class="filter-btn" data-filter="featured" onclick="setFilter('featured',this)">Featured</button>
+  <button class="filter-btn" data-filter="new" onclick="setFilter('new',this)">Newly Added</button>
+  <button class="filter-btn" data-filter="india" onclick="setFilter('india',this)">India</button>
+  <button class="filter-btn" data-filter="remote" onclick="setFilter('remote',this)">Remote</button>
+  <button class="filter-btn" data-filter="service" onclick="setFilter('service',this)">IT Services</button>
+  <button class="filter-btn" data-filter="mnc" onclick="setFilter('mnc',this)">MNCs</button>
+  <button class="filter-btn" data-filter="startup" onclick="setFilter('startup',this)">Startups</button>
+  <button class="filter-btn" data-filter="jobboard" onclick="setFilter('jobboard',this)">Job Boards</button>
+  <button class="filter-btn" data-filter="saas" onclick="setFilter('saas',this)">SaaS</button>
+  <button class="filter-btn" data-filter="devtools" onclick="setFilter('devtools',this)">Dev Tools</button>
+  <button class="filter-btn" data-filter="enterprise" onclick="setFilter('enterprise',this)">Enterprise</button>
+  <button class="filter-btn" data-filter="nonprofit" onclick="setFilter('nonprofit',this)">Nonprofit</button>
+  <span id="visible-count"></span>
+</div>
+
+<div class="grid-wrap">
+  <div class="grid" id="grid">
+    <div class="no-results" id="no-results">No matching companies found.</div>
+  </div>
+</div>
+
+<footer>
+  Generated <span>March 2026</span> &mdash; 400+ career & job links &mdash; IT Services · MNCs · Startups · Remote &mdash; CareerLinks
+</footer>
+
+<script src="./script/script.js"></script>
+</body>
+</html>
