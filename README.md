@@ -10,7 +10,7 @@
 **A curated, searchable, single-file HTML bookmark page with 400+ verified live career & job pages.**  
 Indian IT services · Global MNCs · Unicorn Startups · Remote Job Boards · Fresher Portals
 
-[🌐 Live Demo](https://careernexusapp.vercel.app/) &nbsp;·&nbsp; [📂 View File](./index.html) &nbsp;·&nbsp; [⭐ Star this repo](#)
+[🌐 Live Demo](https://careernexuss.vercel.app/) &nbsp;·&nbsp; [📂 View File](./index.html) &nbsp;·&nbsp; [⭐ Star this repo](#)
 
 </div>
 
