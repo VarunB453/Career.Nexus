@@ -10,7 +10,7 @@
 **A curated, searchable, single-file HTML bookmark page with 400+ verified live career & job pages.**  
 Indian IT services · Global MNCs · Unicorn Startups · Remote Job Boards · Fresher Portals
 
-[🌐 Live Demo](#) &nbsp;·&nbsp; [📂 View File](./index.html) &nbsp;·&nbsp; [⭐ Star this repo](#)
+[🌐 Live Demo](https://careernexusapp.vercel.app/) &nbsp;·&nbsp; [📂 View File](./index.html) &nbsp;·&nbsp; [⭐ Star this repo](#)
 
 </div>
 
@@ -30,7 +30,7 @@ Indian IT services · Global MNCs · Unicorn Startups · Remote Job Boards · Fr
 - 🌑 **Dark Theme** — Eye-friendly dark UI with accent highlights
 - 📱 **Responsive** — Works on desktop, tablet, and mobile
 - ⚡ **Zero Dependencies** — Pure HTML, CSS & vanilla JS — no npm, no build step, no backend
-- 🗂️ **Single File** — Everything in one `bookmarks.html` — download and open locally
+- 🗂️ **Single File** — Everything in one `index.html` — download and open locally
 
 ---
 
@@ -57,7 +57,7 @@ Indian IT services · Global MNCs · Unicorn Startups · Remote Job Boards · Fr
 git clone https://github.com/VarunB453/Career.Nexus.git
 
 # Open in browser
-open bookmarks.html
+open index.html
 # or just double-click the file
 ```
 
@@ -198,7 +198,7 @@ Career.Nexus/
 Know a live career page that should be here?
 
 1. Fork the repo
-2. Add your entry to the `companies` array in `bookmarks.html`:
+2. Add your entry to the `companies` array in `index.html`:
 ```js
 { 
   name: "Company Name", 
