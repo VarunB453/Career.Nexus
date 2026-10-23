@@ -403,6 +403,26 @@ const companies = [
   { name:"Flexa Careers", url:"https://flexa.careers/", note:"Genuinely flexible company job board", tags:["new","remote","jobboard"] },
   { name:"4 Day Week Jobs", url:"https://4dayweek.io/", note:"4-day work week job listings", tags:["new","remote","jobboard"] },
   { name:"Remote First Jobs", url:"https://remotefirstjobs.com/", note:"Companies that are remote-first", tags:["new","remote","jobboard"] },
+
+  // ── Major Job Portals ──
+  { name:"Naukri.com", url:"https://www.naukri.com/", note:"India's major job search portal", tags:["new","jobboard","india"] },
+  { name:"LinkedIn Jobs", url:"https://www.linkedin.com/jobs/", note:"Professional network and job listings", tags:["new","jobboard"] },
+  { name:"Indeed India", url:"https://in.indeed.com/", note:"Job search engine for India", tags:["new","jobboard","india"] },
+  { name:"Apna", url:"https://apna.co/jobs", note:"Jobs across India, including local roles", tags:["new","jobboard","india"] },
+  { name:"Cutshort", url:"https://cutshort.io/search-jobs", note:"Technology and startup jobs", tags:["new","jobboard","india","devtools"] },
+  { name:"Hirist", url:"https://www.hirist.tech/", note:"Technology jobs in India", tags:["new","jobboard","india","devtools"] },
+  { name:"iimjobs", url:"https://www.iimjobs.com/", note:"Management and experienced professional jobs", tags:["new","jobboard","india"] },
+  { name:"National Career Service (NCS)", url:"https://www.ncs.gov.in/", note:"Government career and employment services India", tags:["new","jobboard","india"] },
+  { name:"TimesJobs", url:"https://www.timesjobs.com/", note:"Job search portal for India", tags:["new","jobboard","india"] },
+  { name:"WorkIndia", url:"https://www.workindia.in/jobs/", note:"Local and frontline jobs across India", tags:["new","jobboard","india"] },
+  { name:"Naukri Campus", url:"https://www.naukri.com/campus/", note:"Entry-level and campus jobs India", tags:["new","jobboard","india"] },
+  { name:"Glassdoor Jobs", url:"https://www.glassdoor.co.in/Job/index.htm", note:"Job listings, company reviews, and salaries", tags:["new","jobboard","india"] },
+
+  // ── Job Application Trackers ──
+  { name:"Huntr", url:"https://huntr.co/", note:"Job application tracking and career tools", tags:["new","jobboard","tracker"] },
+  { name:"Teal Job Tracker", url:"https://www.tealhq.com/tools/job-tracker", note:"Job search and application tracker", tags:["new","jobboard","tracker"] },
+  { name:"Careerflow", url:"https://www.careerflow.ai/job-tracker", note:"Job tracking and career management tools", tags:["new","jobboard","tracker"] },
+  { name:"Jobscan Job Tracker", url:"https://www.jobscan.co/job-tracker", note:"Job application tracker and job search tools", tags:["new","jobboard","tracker"] },
 ];
 
 let activeFilter = 'all';
