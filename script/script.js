@@ -112,6 +112,7 @@ const companies = [
   { name:"Superset", url:"https://app.joinsuperset.com/students", note:"Campus & fresher hiring India", tags:["new","featured","jobboard","india"] },
   { name:"Talent Titan (Mahindra)", url:"https://talenttitan.com/candidates/hiring-drives/mahindra-campus-hiring/", note:"Mahindra campus hiring drive", tags:["new","jobboard","india","enterprise"] },
   { name:"TrueUp", url:"https://www.trueup.io/", note:"Tech job & layoff tracker", tags:["new","devtools","jobboard"] },
+  { name:"caio.pro", url:"https://caio.pro/jobs.html", note:"AI leadership jobs worldwide", tags:["new","jobboard"] },
   { name:"Contra", url:"https://contra.com/features/find-freelance-jobs", note:"Global freelance job platform", tags:["new","remote","jobboard"] },
   { name:"Wellfound (AngelList)", url:"https://wellfound.com/", note:"Startup jobs & AngelList talent", tags:["new","featured","jobboard","startup"] },
   { name:"Virtual Vocations", url:"https://www.virtualvocations.com/", note:"Remote & work-from-home jobs", tags:["new","remote","jobboard"] },
